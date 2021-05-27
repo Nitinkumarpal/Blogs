@@ -17,6 +17,10 @@ def home(request):
     
     return render(request,'home.html')
 
+def hemisphere(request):
+    
+    return render(request,'hemisphere.html')
+
 
 
 from django.contrib.auth import login as auth_login
